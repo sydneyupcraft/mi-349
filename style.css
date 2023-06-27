@@ -1,0 +1,33 @@
+.masthead {
+    background-image: url('images/kitchen.jpeg');
+    background-size: cover;
+    background-position: middle;
+    height: 250px;
+    border-radius: 20px;
+    border-color: #80461B;
+}
+
+
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 50px;
+    background-color: #E3963E;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0
+}
+
+p {
+    line-height: 1.5em;
+}
+
+div {
+    background-color: #FAD5A5;
+    width: 300px;
+    border: 3px #80461B;
+    padding: 10 px;
+    margin: 10 px;
+}
