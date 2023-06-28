@@ -46,6 +46,11 @@
     margin: 10px;
     text-align: center;
     border: 5px solid #80461B;
+    font-size: 15px;
+}
+
+.daily ul {
+    text-align: left;
 }
 
 .profile {
@@ -154,4 +159,34 @@ ul {
 .box {
     font-size: 40px;
     text-align: right;
+}
+
+.about {
+    display: flex;
+}
+
+.about section{
+    flex-grow: 1;
+    flex-basis: 0;
+    background-color: #C97F62;
+    width: 100%;
+    border: 5px solid #80461B;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.myplate {
+    display: flex;
+}
+
+.myplate section {
+    flex-grow: 1;
+    flex-basis: 0;
+    background-color: #C97F62;
+    width: 100%;
+    border: 5px solid #80461B;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
