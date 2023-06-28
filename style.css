@@ -63,7 +63,7 @@ h2 {
 }
 
 h3 {
-    font-size: medium;
+    font-size: 150%;
 }
 
 span {
@@ -74,7 +74,7 @@ span {
 }
 
 h4 {
-    font-size: larger;
+    font-size: 200%;
 }
 
 .title_main {
@@ -98,19 +98,26 @@ p {
 
 #blog {
     display: flex;
-    margin: 10px auto;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
-.MyPlate {
-    display: flex;
-}
-
-.MyPlate {
+#blog section{
     flex-grow: 1;
     flex-basis: 0;
-    background-color:#FAD5A5;
-    padding: 0px;
-    margin: 0px;
+    background-color: #ABDF96;
+    width: 25%;
+    border: 5px solid #80461B;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.inner {
+    flex-grow: 1;
+    flex-basis: 0;
+    background-color: #ABDF96;
+    width: 90%;
+    border: 5px solid #80461B;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
