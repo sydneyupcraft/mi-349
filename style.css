@@ -25,10 +25,10 @@
 .index section {
     flex-grow: 1;
     flex-basis: 0;
-    background-color: #ABDF96;
+    background-color: #ABB89A;
     width: 25%;
     border: 5px solid #80461B;
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
     text-align: center;
 }
@@ -40,18 +40,20 @@
 .logins section {
     flex-grow: 1;
     flex-basis: 0;
-    background-color: #ABDF96;
+    background-color: #C97F62;
     width: 100%;
-    padding: 5px;
-    margin: 5px;
+    padding: 20px;
+    margin: 10px;
     text-align: center;
+    border: 5px solid #80461B;
 }
 
 .profile {
     display: block;
-    margin-left: auto;
+    margin-left: 0;
     margin-right: auto;
     width: 50%;
+    float: left;
 }
 
 body {
@@ -85,7 +87,7 @@ h3 {
 span {
     display: inline-block;
     font-size: 50px;
-    background-color: #ABDF96;
+    background-color: #FAD5A5;
     line-height: 0.75em;
 }
 
@@ -100,7 +102,7 @@ h4 {
 .title_main section {
     flex-grow: 1;
     flex-basis: 0;
-    background-color: #ABDF96;
+    background-color: #FAD5A5;
     width: 100%;
     border: 5px solid #80461B;
     padding: 0px;
@@ -123,7 +125,7 @@ p {
 #blog section{
     flex-grow: 1;
     flex-basis: 0;
-    background-color: #ABDF96;
+    background-color: #ABB89A;
     width: 25%;
     border: 5px solid #80461B;
     padding: 10px;
@@ -134,11 +136,22 @@ p {
 .inner {
     flex-grow: 1;
     flex-basis: 0;
-    background-color: #ABDF96;
+    background-color: #FAD5A5;
     width: 90%;
     border: 5px solid #80461B;
     padding: 10px;
     margin: 10px;
     text-align: center;
+    font-size: 20px ;
 }
 
+ul {
+    font-size: 30px;
+    list-style-position: inside;
+    text-align: center;
+}
+
+.box {
+    font-size: 40px;
+    text-align: right;
+}
