@@ -10,11 +10,6 @@
     background-position: bottom;
 }
 
-img {
-    width: 100%;
-    border: 10px #80461B;
-}
-
 .heading {
     background-color: #FAD5A5;
     width: 90%;
@@ -36,6 +31,27 @@ img {
     padding: 10px;
     margin: 10px;
     text-align: center;
+}
+
+.logins {
+    display:flex;
+}
+
+.logins section {
+    flex-grow: 1;
+    flex-basis: 0;
+    background-color: #ABDF96;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 body {
@@ -92,6 +108,10 @@ h4 {
     text-align: center;
 }
 
+.recipes {
+    width: 100%;
+}
+
 p {
     line-height: 1.5em;
 }
@@ -121,3 +141,4 @@ p {
     margin: 10px;
     text-align: center;
 }
+
